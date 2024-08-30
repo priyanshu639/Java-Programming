@@ -1,7 +1,7 @@
-
+import java.io.*;
 import java.util.*;
 
-public class hackerrank2 {
+public class Solution {
 
     public static void main(String[] args) {
        Scanner sc = new Scanner(System.in);
