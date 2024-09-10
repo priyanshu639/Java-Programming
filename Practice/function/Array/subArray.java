@@ -11,7 +11,7 @@ public class subArray {
                 }totalcount++;
                 System.out.println();
             }System.out.println();
-        }System.out.print(totalcount);
+        }System.out.println(totalcount);
     }
     public static void main(String[] args) {
         int arr[]={2,4,6,8,10};
