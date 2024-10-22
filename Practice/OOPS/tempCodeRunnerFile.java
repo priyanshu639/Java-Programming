@@ -1,0 +1,1 @@
+obj.password(1234);
