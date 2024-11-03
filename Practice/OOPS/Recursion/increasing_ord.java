@@ -10,9 +10,21 @@ public class increasing_ord {
         printInc(n+1);
     }
 
+    public static void PRINT_INC(int num){
+        if(num==1){
+            System.out.println(num);
+            return;
+        }
+        PRINT_INC(num-1);
+        System.out.println(num);
+
+    }
+
     public static void main(String[] args) {
         int n=1;
+        int num=20;
         printInc(n);
+        PRINT_INC(num);
     }
     
 }
