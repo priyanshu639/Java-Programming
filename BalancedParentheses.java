@@ -37,7 +37,7 @@ public class BalancedParentheses {
     }
 
     public static void main(String[] args) {
-        String str = "({}[]"; // Expected: true
+        String str = "(){}[]"; // Expected: true
         System.out.println(isValid(str)); // Output: true
     }
 }
