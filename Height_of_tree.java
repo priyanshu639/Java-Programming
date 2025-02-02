@@ -21,6 +21,15 @@ public class Height_of_tree {
         return Math.max(lh, rh) + 1;
     }
 
+    // count of nodes
+    public static int count (Node root){
+        if (root == null) {
+            return 0;
+        }
+        int leftCount = count(root.left);
+        int rightCount = count(root.right);
+        return leftCount + rightCount + 1;
+    }
     public static void main(String[] args) {
         // Constructing the binary tree
         Node root = new Node(1);
@@ -33,6 +42,7 @@ public class Height_of_tree {
 
         // Print the height of the tree
         System.out.println("Height of the tree: " + height(root));
+        System.out.println(count(root));
     }
 }
 
