@@ -8,6 +8,8 @@ public class sorting_AL {
             list.add(9);
             list.add(3);
             list.add(8);
+
+            
             // asscending order
             Collections.sort(list);
             System.out.println(list);

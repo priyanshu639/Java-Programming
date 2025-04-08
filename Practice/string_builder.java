@@ -6,7 +6,8 @@ public class string_builder {
             // o(26)
             // o(n^2)
 
-        }System.out.println(sb.length());  
-    }
+        }System.out.println(sb.length()); 
+        System.out.println(sb.toString()); 
+        
     
 }

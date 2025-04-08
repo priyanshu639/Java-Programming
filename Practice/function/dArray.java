@@ -1,5 +1,5 @@
 import java.util.*;
-public class 2dArray {
+public class dArray {
     public static void main (String args[]){
         int arr[][]=new int[3][3];
         int n=arr.length, m=arr[0].length;
@@ -14,7 +14,8 @@ public class 2dArray {
             for(int j=0;j<m;j++){
                 System.out.print(arr[i][j]+" ");
             }
-        }System.out.println();
+            System.out.println();
+        }
 
     }
     
